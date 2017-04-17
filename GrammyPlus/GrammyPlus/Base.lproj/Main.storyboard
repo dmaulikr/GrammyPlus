@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bu9-ZH-TFK">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="62" id="vxM-Zy-bWd"/>
+                                </constraints>
+                                <state key="normal" title="Log in"/>
+                                <connections>
+                                    <action selector="actLogin:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fHG-uV-uPk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ksj-10-5kK">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="LdR-v1-AnK"/>
+                                    <constraint firstAttribute="width" constant="62" id="eef-qh-kLe"/>
+                                </constraints>
+                                <state key="normal" title="Log out"/>
+                                <connections>
+                                    <action selector="actLogout:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0vc-qA-N7M"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ib3-72-bE1">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="274" id="XHi-2c-Kiw"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ueY-tP-bJx">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="61" id="3TW-Hg-iqa"/>
+                                </constraints>
+                                <state key="normal" title="Refresh"/>
+                                <connections>
+                                    <action selector="actRefresh:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qR7-TN-61P"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ksj-10-5kK" firstAttribute="top" secondItem="bu9-ZH-TFK" secondAttribute="top" id="0Xy-Sk-iUT"/>
+                            <constraint firstItem="ueY-tP-bJx" firstAttribute="centerX" secondItem="ib3-72-bE1" secondAttribute="centerX" id="1Ww-ao-hoS"/>
+                            <constraint firstItem="ksj-10-5kK" firstAttribute="baseline" secondItem="bu9-ZH-TFK" secondAttribute="firstBaseline" id="IOf-2e-PxJ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ksj-10-5kK" secondAttribute="trailing" constant="15" id="L9X-do-J23"/>
+                            <constraint firstAttribute="trailing" secondItem="ib3-72-bE1" secondAttribute="trailing" id="Wko-mB-HnG"/>
+                            <constraint firstItem="ib3-72-bE1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="YkE-ks-hhg"/>
+                            <constraint firstItem="ueY-tP-bJx" firstAttribute="top" secondItem="ib3-72-bE1" secondAttribute="bottom" constant="64" id="gLN-Bn-zPI"/>
+                            <constraint firstItem="ksj-10-5kK" firstAttribute="firstBaseline" secondItem="bu9-ZH-TFK" secondAttribute="baseline" id="mr2-LF-Hld"/>
+                            <constraint firstItem="ib3-72-bE1" firstAttribute="top" secondItem="ksj-10-5kK" secondAttribute="bottom" constant="91" id="tHk-lu-Ake"/>
+                            <constraint firstItem="ksj-10-5kK" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="w49-GT-BMJ"/>
+                            <constraint firstItem="bu9-ZH-TFK" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="wLy-Rv-OwF"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="btnLogin" destination="bu9-ZH-TFK" id="gXB-xu-vQZ"/>
+                        <outlet property="btnLogout" destination="ksj-10-5kK" id="aSb-9w-0IT"/>
+                        <outlet property="btnRefresh" destination="ueY-tP-bJx" id="QFE-UH-cgZ"/>
+                        <outlet property="imgPhoto" destination="ib3-72-bE1" id="oJM-gT-PMs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

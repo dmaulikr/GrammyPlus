@@ -1,0 +1,723 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		69EB6C3A290D8B6D96833E7A /* libPods-GrammyPlusUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B904917EA503EBA379CB1D38 /* libPods-GrammyPlusUITests.a */; };
+		A2AEEFBB84653139C6A90A53 /* libPods-GrammyPlusTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A84FBCE18727261A512D5BD1 /* libPods-GrammyPlusTests.a */; };
+		D2F5C3981EA309260041D4AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F5C3971EA309260041D4AE /* main.m */; };
+		D2F5C39B1EA309260041D4AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F5C39A1EA309260041D4AE /* AppDelegate.m */; };
+		D2F5C39E1EA309260041D4AE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F5C39D1EA309260041D4AE /* ViewController.m */; };
+		D2F5C3A11EA309260041D4AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2F5C39F1EA309260041D4AE /* Main.storyboard */; };
+		D2F5C3A31EA309260041D4AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2F5C3A21EA309260041D4AE /* Assets.xcassets */; };
+		D2F5C3A61EA309260041D4AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2F5C3A41EA309260041D4AE /* LaunchScreen.storyboard */; };
+		D2F5C3B11EA309260041D4AE /* GrammyPlusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F5C3B01EA309260041D4AE /* GrammyPlusTests.m */; };
+		D2F5C3BC1EA309270041D4AE /* GrammyPlusUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F5C3BB1EA309270041D4AE /* GrammyPlusUITests.m */; };
+		D3A7C1FA9F444CAF46112AE7 /* libPods-GrammyPlus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 916A8E43FDC513B43E861395 /* libPods-GrammyPlus.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2F5C3AD1EA309260041D4AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2F5C38B1EA309260041D4AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2F5C3921EA309260041D4AE;
+			remoteInfo = GrammyPlus;
+		};
+		D2F5C3B81EA309270041D4AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2F5C38B1EA309260041D4AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2F5C3921EA309260041D4AE;
+			remoteInfo = GrammyPlus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15C4B98E4674642EF10FB7CD /* Pods-GrammyPlusTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrammyPlusTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GrammyPlusTests/Pods-GrammyPlusTests.debug.xcconfig"; sourceTree = "<group>"; };
+		29B008C4CCB21553C55E6014 /* Pods-GrammyPlus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrammyPlus.release.xcconfig"; path = "Pods/Target Support Files/Pods-GrammyPlus/Pods-GrammyPlus.release.xcconfig"; sourceTree = "<group>"; };
+		916A8E43FDC513B43E861395 /* libPods-GrammyPlus.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GrammyPlus.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98375C32D783A9D9141A6514 /* Pods-GrammyPlusTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrammyPlusTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GrammyPlusTests/Pods-GrammyPlusTests.release.xcconfig"; sourceTree = "<group>"; };
+		A84FBCE18727261A512D5BD1 /* libPods-GrammyPlusTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GrammyPlusTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B436A5CA65EEEF4581E1E0B0 /* Pods-GrammyPlus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrammyPlus.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GrammyPlus/Pods-GrammyPlus.debug.xcconfig"; sourceTree = "<group>"; };
+		B904917EA503EBA379CB1D38 /* libPods-GrammyPlusUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GrammyPlusUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2F5C3931EA309260041D4AE /* GrammyPlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrammyPlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2F5C3971EA309260041D4AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D2F5C3991EA309260041D4AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D2F5C39A1EA309260041D4AE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D2F5C39C1EA309260041D4AE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D2F5C39D1EA309260041D4AE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D2F5C3A01EA309260041D4AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D2F5C3A21EA309260041D4AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2F5C3A51EA309260041D4AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D2F5C3A71EA309260041D4AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2F5C3AC1EA309260041D4AE /* GrammyPlusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrammyPlusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2F5C3B01EA309260041D4AE /* GrammyPlusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GrammyPlusTests.m; sourceTree = "<group>"; };
+		D2F5C3B21EA309260041D4AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2F5C3B71EA309270041D4AE /* GrammyPlusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrammyPlusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2F5C3BB1EA309270041D4AE /* GrammyPlusUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GrammyPlusUITests.m; sourceTree = "<group>"; };
+		D2F5C3BD1EA309270041D4AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D724FAF3FF8101951106F226 /* Pods-GrammyPlusUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrammyPlusUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GrammyPlusUITests/Pods-GrammyPlusUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F73303EC30B72BF6B3BD4A02 /* Pods-GrammyPlusUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrammyPlusUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GrammyPlusUITests/Pods-GrammyPlusUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2F5C3901EA309260041D4AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3A7C1FA9F444CAF46112AE7 /* libPods-GrammyPlus.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2F5C3A91EA309260041D4AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2AEEFBB84653139C6A90A53 /* libPods-GrammyPlusTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2F5C3B41EA309270041D4AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69EB6C3A290D8B6D96833E7A /* libPods-GrammyPlusUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F6ED97BC0F7E94D663383BE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B436A5CA65EEEF4581E1E0B0 /* Pods-GrammyPlus.debug.xcconfig */,
+				29B008C4CCB21553C55E6014 /* Pods-GrammyPlus.release.xcconfig */,
+				15C4B98E4674642EF10FB7CD /* Pods-GrammyPlusTests.debug.xcconfig */,
+				98375C32D783A9D9141A6514 /* Pods-GrammyPlusTests.release.xcconfig */,
+				F73303EC30B72BF6B3BD4A02 /* Pods-GrammyPlusUITests.debug.xcconfig */,
+				D724FAF3FF8101951106F226 /* Pods-GrammyPlusUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7385B20E373C8117E22C1D87 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				916A8E43FDC513B43E861395 /* libPods-GrammyPlus.a */,
+				A84FBCE18727261A512D5BD1 /* libPods-GrammyPlusTests.a */,
+				B904917EA503EBA379CB1D38 /* libPods-GrammyPlusUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2F5C38A1EA309260041D4AE = {
+			isa = PBXGroup;
+			children = (
+				D2F5C3951EA309260041D4AE /* GrammyPlus */,
+				D2F5C3AF1EA309260041D4AE /* GrammyPlusTests */,
+				D2F5C3BA1EA309270041D4AE /* GrammyPlusUITests */,
+				D2F5C3941EA309260041D4AE /* Products */,
+				5F6ED97BC0F7E94D663383BE /* Pods */,
+				7385B20E373C8117E22C1D87 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D2F5C3941EA309260041D4AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2F5C3931EA309260041D4AE /* GrammyPlus.app */,
+				D2F5C3AC1EA309260041D4AE /* GrammyPlusTests.xctest */,
+				D2F5C3B71EA309270041D4AE /* GrammyPlusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2F5C3951EA309260041D4AE /* GrammyPlus */ = {
+			isa = PBXGroup;
+			children = (
+				D2F5C3991EA309260041D4AE /* AppDelegate.h */,
+				D2F5C39A1EA309260041D4AE /* AppDelegate.m */,
+				D2F5C39C1EA309260041D4AE /* ViewController.h */,
+				D2F5C39D1EA309260041D4AE /* ViewController.m */,
+				D2F5C39F1EA309260041D4AE /* Main.storyboard */,
+				D2F5C3A21EA309260041D4AE /* Assets.xcassets */,
+				D2F5C3A41EA309260041D4AE /* LaunchScreen.storyboard */,
+				D2F5C3A71EA309260041D4AE /* Info.plist */,
+				D2F5C3961EA309260041D4AE /* Supporting Files */,
+			);
+			path = GrammyPlus;
+			sourceTree = "<group>";
+		};
+		D2F5C3961EA309260041D4AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2F5C3971EA309260041D4AE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D2F5C3AF1EA309260041D4AE /* GrammyPlusTests */ = {
+			isa = PBXGroup;
+			children = (
+				D2F5C3B01EA309260041D4AE /* GrammyPlusTests.m */,
+				D2F5C3B21EA309260041D4AE /* Info.plist */,
+			);
+			path = GrammyPlusTests;
+			sourceTree = "<group>";
+		};
+		D2F5C3BA1EA309270041D4AE /* GrammyPlusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D2F5C3BB1EA309270041D4AE /* GrammyPlusUITests.m */,
+				D2F5C3BD1EA309270041D4AE /* Info.plist */,
+			);
+			path = GrammyPlusUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2F5C3921EA309260041D4AE /* GrammyPlus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2F5C3C01EA309270041D4AE /* Build configuration list for PBXNativeTarget "GrammyPlus" */;
+			buildPhases = (
+				A9BEB970173A81A969349334 /* [CP] Check Pods Manifest.lock */,
+				D2F5C38F1EA309260041D4AE /* Sources */,
+				D2F5C3901EA309260041D4AE /* Frameworks */,
+				D2F5C3911EA309260041D4AE /* Resources */,
+				28772864B12989A93196D378 /* [CP] Embed Pods Frameworks */,
+				AA0869C83260F69886B75408 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GrammyPlus;
+			productName = GrammyPlus;
+			productReference = D2F5C3931EA309260041D4AE /* GrammyPlus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2F5C3AB1EA309260041D4AE /* GrammyPlusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2F5C3C31EA309270041D4AE /* Build configuration list for PBXNativeTarget "GrammyPlusTests" */;
+			buildPhases = (
+				1BC1A7816D37A2E93CBFD1C9 /* [CP] Check Pods Manifest.lock */,
+				D2F5C3A81EA309260041D4AE /* Sources */,
+				D2F5C3A91EA309260041D4AE /* Frameworks */,
+				D2F5C3AA1EA309260041D4AE /* Resources */,
+				0A9C108FFEB3F84BD53E4ECB /* [CP] Embed Pods Frameworks */,
+				754F94B26936658074C0EC4E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2F5C3AE1EA309260041D4AE /* PBXTargetDependency */,
+			);
+			name = GrammyPlusTests;
+			productName = GrammyPlusTests;
+			productReference = D2F5C3AC1EA309260041D4AE /* GrammyPlusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D2F5C3B61EA309270041D4AE /* GrammyPlusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2F5C3C61EA309270041D4AE /* Build configuration list for PBXNativeTarget "GrammyPlusUITests" */;
+			buildPhases = (
+				6E7FB4B4C46E7CF49AE14D44 /* [CP] Check Pods Manifest.lock */,
+				D2F5C3B31EA309270041D4AE /* Sources */,
+				D2F5C3B41EA309270041D4AE /* Frameworks */,
+				D2F5C3B51EA309270041D4AE /* Resources */,
+				7E88A798A99FD1C68D778163 /* [CP] Embed Pods Frameworks */,
+				E3B9AC1AA8DA554B893B2D8A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2F5C3B91EA309270041D4AE /* PBXTargetDependency */,
+			);
+			name = GrammyPlusUITests;
+			productName = GrammyPlusUITests;
+			productReference = D2F5C3B71EA309270041D4AE /* GrammyPlusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2F5C38B1EA309260041D4AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = reverse;
+				TargetAttributes = {
+					D2F5C3921EA309260041D4AE = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					D2F5C3AB1EA309260041D4AE = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D2F5C3921EA309260041D4AE;
+					};
+					D2F5C3B61EA309270041D4AE = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D2F5C3921EA309260041D4AE;
+					};
+				};
+			};
+			buildConfigurationList = D2F5C38E1EA309260041D4AE /* Build configuration list for PBXProject "GrammyPlus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2F5C38A1EA309260041D4AE;
+			productRefGroup = D2F5C3941EA309260041D4AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2F5C3921EA309260041D4AE /* GrammyPlus */,
+				D2F5C3AB1EA309260041D4AE /* GrammyPlusTests */,
+				D2F5C3B61EA309270041D4AE /* GrammyPlusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2F5C3911EA309260041D4AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2F5C3A61EA309260041D4AE /* LaunchScreen.storyboard in Resources */,
+				D2F5C3A31EA309260041D4AE /* Assets.xcassets in Resources */,
+				D2F5C3A11EA309260041D4AE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2F5C3AA1EA309260041D4AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2F5C3B51EA309270041D4AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A9C108FFEB3F84BD53E4ECB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GrammyPlusTests/Pods-GrammyPlusTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1BC1A7816D37A2E93CBFD1C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		28772864B12989A93196D378 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GrammyPlus/Pods-GrammyPlus-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E7FB4B4C46E7CF49AE14D44 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		754F94B26936658074C0EC4E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GrammyPlusTests/Pods-GrammyPlusTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E88A798A99FD1C68D778163 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GrammyPlusUITests/Pods-GrammyPlusUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9BEB970173A81A969349334 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AA0869C83260F69886B75408 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GrammyPlus/Pods-GrammyPlus-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3B9AC1AA8DA554B893B2D8A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GrammyPlusUITests/Pods-GrammyPlusUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2F5C38F1EA309260041D4AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2F5C39E1EA309260041D4AE /* ViewController.m in Sources */,
+				D2F5C39B1EA309260041D4AE /* AppDelegate.m in Sources */,
+				D2F5C3981EA309260041D4AE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2F5C3A81EA309260041D4AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2F5C3B11EA309260041D4AE /* GrammyPlusTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2F5C3B31EA309270041D4AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2F5C3BC1EA309270041D4AE /* GrammyPlusUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2F5C3AE1EA309260041D4AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2F5C3921EA309260041D4AE /* GrammyPlus */;
+			targetProxy = D2F5C3AD1EA309260041D4AE /* PBXContainerItemProxy */;
+		};
+		D2F5C3B91EA309270041D4AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2F5C3921EA309260041D4AE /* GrammyPlus */;
+			targetProxy = D2F5C3B81EA309270041D4AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D2F5C39F1EA309260041D4AE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2F5C3A01EA309260041D4AE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D2F5C3A41EA309260041D4AE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2F5C3A51EA309260041D4AE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2F5C3BE1EA309270041D4AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D2F5C3BF1EA309270041D4AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2F5C3C11EA309270041D4AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B436A5CA65EEEF4581E1E0B0 /* Pods-GrammyPlus.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GrammyPlus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.reverse.GrammyPlus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D2F5C3C21EA309270041D4AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29B008C4CCB21553C55E6014 /* Pods-GrammyPlus.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GrammyPlus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.reverse.GrammyPlus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D2F5C3C41EA309270041D4AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15C4B98E4674642EF10FB7CD /* Pods-GrammyPlusTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GrammyPlusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.reverse.GrammyPlusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GrammyPlus.app/GrammyPlus";
+			};
+			name = Debug;
+		};
+		D2F5C3C51EA309270041D4AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98375C32D783A9D9141A6514 /* Pods-GrammyPlusTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GrammyPlusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.reverse.GrammyPlusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GrammyPlus.app/GrammyPlus";
+			};
+			name = Release;
+		};
+		D2F5C3C71EA309270041D4AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F73303EC30B72BF6B3BD4A02 /* Pods-GrammyPlusUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = GrammyPlusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.reverse.GrammyPlusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GrammyPlus;
+			};
+			name = Debug;
+		};
+		D2F5C3C81EA309270041D4AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D724FAF3FF8101951106F226 /* Pods-GrammyPlusUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = GrammyPlusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.reverse.GrammyPlusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GrammyPlus;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2F5C38E1EA309260041D4AE /* Build configuration list for PBXProject "GrammyPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2F5C3BE1EA309270041D4AE /* Debug */,
+				D2F5C3BF1EA309270041D4AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2F5C3C01EA309270041D4AE /* Build configuration list for PBXNativeTarget "GrammyPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2F5C3C11EA309270041D4AE /* Debug */,
+				D2F5C3C21EA309270041D4AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D2F5C3C31EA309270041D4AE /* Build configuration list for PBXNativeTarget "GrammyPlusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2F5C3C41EA309270041D4AE /* Debug */,
+				D2F5C3C51EA309270041D4AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D2F5C3C61EA309270041D4AE /* Build configuration list for PBXNativeTarget "GrammyPlusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2F5C3C71EA309270041D4AE /* Debug */,
+				D2F5C3C81EA309270041D4AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2F5C38B1EA309260041D4AE /* Project object */;
+}
